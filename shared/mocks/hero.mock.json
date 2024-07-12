@@ -1,0 +1,53 @@
+{
+  "heroTitle": "Collectible Sneakers",
+  "heroDescription": "Sit elit feugiat turpis sed integer integer accumsan turpis. Sed suspendisse nec lorem mauris. Pharetra, eu imperdiet ipsum ultrices amet.",
+  "heroButtons": [
+    {
+      "buttonTitle": "Sign up now",
+      "buttonUrl": "#",
+      "buttonAriaLabel": "Sign up now",
+      "buttonType": "primary"
+    },
+    {
+      "buttonTitle": "Watch Demo",
+      "buttonIcon": "/button-play-icon.svg",
+      "buttonUrl": "#",
+      "buttonAriaLabel": "Watch Demo",
+      "buttonType": "secondary"
+    }
+  ],
+  "heroImageMobile": {
+    "src": "/hero-image-mobile.webp",
+    "alt": "Hero image"
+  },
+  "heroImageDesktop": {
+    "src": "/hero-image-desktop.webp",
+    "alt": "Hero image"
+  },
+  "heroBlockRows": [
+    {
+      "blockTitle": "Nibh viverra",
+      "blockDescription": "Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.",
+      "blockImage": {
+        "src": "/block-image-1.png",
+        "alt": ""
+      }
+    },
+    {
+      "blockTitle": "Cursus amet",
+      "blockDescription": "Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.",
+      "blockImage": {
+        "src": "/block-image-2.png",
+        "alt": ""
+      }
+    },
+    {
+      "blockTitle": "Ipsum fermentum",
+      "blockDescription": "Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.",
+      "blockImage": {
+        "src": "/block-image-3.png",
+        "alt": ""
+      }
+    }
+  ]
+}
