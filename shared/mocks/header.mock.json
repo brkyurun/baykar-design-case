@@ -1,0 +1,35 @@
+{
+  "brandName": "Collers",
+  "headerLinks": [
+    {
+      "linkTitle": "Products",
+      "linkUrl": "#",
+      "isButton": false
+    },
+    {
+      "linkTitle": "Solutions",
+      "linkUrl": "#",
+      "isButton": false
+    },
+    {
+      "linkTitle": "Pricing",
+      "linkUrl": "#",
+      "isButton": false
+    },
+    {
+      "linkTitle": "Resources",
+      "linkUrl": "#",
+      "isButton": false
+    },
+    {
+      "linkTitle": "Log In",
+      "linkUrl": "#",
+      "isButton": false
+    },
+    {
+      "linkTitle": "Sign Up Now",
+      "linkUrl": "#",
+      "isButton": true
+    }
+  ]
+}
