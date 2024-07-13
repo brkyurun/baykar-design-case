@@ -29,7 +29,7 @@
       "blockTitle": "Nibh viverra",
       "blockDescription": "Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.",
       "blockImage": {
-        "src": "/block-image-1.png",
+        "src": "/block-image-1.svg",
         "alt": ""
       }
     },
@@ -37,7 +37,7 @@
       "blockTitle": "Cursus amet",
       "blockDescription": "Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.",
       "blockImage": {
-        "src": "/block-image-2.png",
+        "src": "/block-image-2.svg",
         "alt": ""
       }
     },
@@ -45,7 +45,7 @@
       "blockTitle": "Ipsum fermentum",
       "blockDescription": "Sit bibendum donec dolor fames neque vulputate non sit aliquam. Consequat turpis natoque leo, massa.",
       "blockImage": {
-        "src": "/block-image-3.png",
+        "src": "/block-image-3.svg",
         "alt": ""
       }
     }

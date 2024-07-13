@@ -31,6 +31,9 @@ const config: Config = {
           DEFAULT: '1440px',
         },
       },
+      backgroundImage: {
+        'gradient-hero': 'linear-gradient(135deg, var(--tw-gradient-stops))',
+      },
     },
   },
   plugins: [],
