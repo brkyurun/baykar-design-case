@@ -75,8 +75,8 @@ export function Hero({
             className="absolute z-10 h-auto w-full object-cover desktop:invisible desktop:hidden"
           />
           <Image
-            src={heroImageMobile.src}
-            alt={heroImageMobile.alt}
+            src={heroImageDesktop.src}
+            alt={heroImageDesktop.alt}
             sizes="100vw"
             width={486}
             height={388}
