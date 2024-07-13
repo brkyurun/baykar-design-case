@@ -1,0 +1,156 @@
+{
+  "categories": [
+    {
+      "categoryTitle": "Product",
+      "categoryItems": [
+        {
+          "categoryItemTitle": "Pricing",
+          "categoryItemUrl": "#"
+        },
+        {
+          "categoryItemTitle": "Overview",
+          "categoryItemUrl": "#"
+        },
+        {
+          "categoryItemTitle": "Browse",
+          "categoryItemUrl": "#"
+        },
+        {
+          "categoryItemTitle": "Accessibility",
+          "categoryItemUrl": "#"
+        },
+        {
+          "categoryItemTitle": "Five",
+          "categoryItemUrl": "#"
+        }
+      ]
+    },
+    {
+      "categoryTitle": "Solutions",
+      "categoryItems": [
+        {
+          "categoryItemTitle": "Brainstorming",
+          "categoryItemUrl": "#"
+        },
+        {
+          "categoryItemTitle": "Ideation",
+          "categoryItemUrl": "#"
+        },
+        {
+          "categoryItemTitle": "Wireframing",
+          "categoryItemUrl": "#"
+        },
+        {
+          "categoryItemTitle": "Research",
+          "categoryItemUrl": "#"
+        },
+        {
+          "categoryItemTitle": "Design",
+          "categoryItemUrl": "#"
+        }
+      ]
+    },
+    {
+      "categoryTitle": "Support",
+      "categoryItems": [
+        {
+          "categoryItemTitle": "Contact Us",
+          "categoryItemUrl": "#"
+        },
+        {
+          "categoryItemTitle": "Developers",
+          "categoryItemUrl": "#"
+        },
+        {
+          "categoryItemTitle": "Documentation",
+          "categoryItemUrl": "#"
+        },
+        {
+          "categoryItemTitle": "Integrations",
+          "categoryItemUrl": "#"
+        },
+        {
+          "categoryItemTitle": "Reports",
+          "categoryItemUrl": "#"
+        }
+      ]
+    }
+  ],
+  "appStoreIcons": {
+    "title": "Get the App",
+    "icons": [
+      {
+        "iconImage": "/app-store-icon.svg",
+        "iconImageAlt": "App Store icon",
+        "iconWidth": 120,
+        "iconHeight": 40,
+        "iconUrl": "#"
+      },
+      {
+        "iconImage": "/google-play-icon.svg",
+        "iconImageAlt": "Google Play icon",
+        "iconWidth": 136,
+        "iconHeight": 40,
+        "iconUrl": "#"
+      }
+    ]
+  },
+  "socials": {
+    "title": "Follow us",
+    "segments": [
+      {
+        "segmentTitle": "YouTube",
+        "segmentIcon": "/youtube-icon.svg",
+        "segmentUrl": "#"
+      },
+      {
+        "segmentTitle": "Facebook",
+        "segmentIcon": "/facebook-icon.svg",
+        "segmentUrl": "#"
+      },
+      {
+        "segmentTitle": "Twitter",
+        "segmentIcon": "/twitter-icon.svg",
+        "segmentUrl": "#"
+      },
+      {
+        "segmentTitle": "Instagram",
+        "segmentIcon": "/instagram-icon.svg",
+        "segmentUrl": "#"
+      },
+      {
+        "segmentTitle": "LinkedIn",
+        "segmentIcon": "/linkedin-icon.svg",
+        "segmentUrl": "#"
+      }
+    ]
+  },
+  "copyright": "Collers @ 2023. All rights reserved.",
+  "privacyLinks": [
+    {
+      "privacyLinkTitle": "Terms",
+      "privacyLinkUrl": "#"
+    },
+    {
+      "privacyLinkTitle": "Privacy",
+      "privacyLinkUrl": "#"
+    },
+    {
+      "privacyLinkTitle": "Contact",
+      "privacyLinkUrl": "#"
+    }
+  ],
+  "languageSelection": {
+    "languageIcon": "/language-icon.svg",
+    "languages": [
+      {
+        "languageTitle": "English",
+        "languageCode": "en"
+      },
+      {
+        "languageTitle": "Turkish",
+        "languageCode": "tr"
+      }
+    ]
+  }
+}

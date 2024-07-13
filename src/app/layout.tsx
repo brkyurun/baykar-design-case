@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import "./globals.css";
-import headerMock from "../../shared/mocks/header.mock.json";
 import { Header, HeaderProps } from "./components/Header";
+import { Footer, FooterProps } from "./components/Footer";
+import headerMock from "../../shared/mocks/header.mock.json";
+import footerMock from "../../shared/mocks/footer.mock.json";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -26,6 +28,7 @@ export default function RootLayout({
       <body className={`${roboto.variable} isolate overflow-x-hidden`}>
         <Header {...(headerMock as HeaderProps)} />
         {children}
+        <Footer {...(footerMock as FooterProps)} />
       </body>
     </html>
   );
