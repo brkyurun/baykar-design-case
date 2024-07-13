@@ -41,12 +41,12 @@ export function ProductGallery({
   products,
 }: ProductGalleryProps) {
   return (
-    <section className="bg-baykar-black bg-[url('/backlights.webp')] bg-contain bg-no-repeat px-4 py-12 font-roboto text-white [background-position-y:34rem]">
-      <div className="flex flex-col items-center gap-8">
-        <h2 className="inline-block text-center text-[2rem] font-bold">
+    <section className="bg-baykar-black bg-[url('/backlights.webp')] bg-contain bg-no-repeat px-4 py-12 font-roboto text-white [background-position-y:34rem] desktop:p-20 desktop:[background-image:url('/backlights-desktop.webp')] desktop:[background-position-x:center] desktop:[background-position-y:12rem] desktop:[background-size:95%]">
+      <div className="flex flex-col items-center gap-8 desktop:flex-row desktop:justify-between desktop:gap-20">
+        <h2 className="inline-block text-center text-[2rem] font-bold desktop:text-[3.5rem]">
           {productGalleryTitle}
         </h2>
-        <div className="mx-auto max-w-[14.625rem]">
+        <div className="mx-auto max-w-[14.625rem] desktop:mx-0">
           <Button
             buttonType={productGalleryButtonProps.buttonType}
             buttonAriaLabel={productGalleryButtonProps.buttonAriaLabel}
@@ -57,7 +57,7 @@ export function ProductGallery({
           </Button>
         </div>
       </div>
-      <div className="mt-8 flex flex-col items-center justify-center gap-8">
+      <div className="mt-8 flex flex-col items-center justify-center gap-8 desktop:mt-20 desktop:flex-row desktop:gap-12">
         {products.map((product) => (
           <div
             key={crypto.randomUUID()}
