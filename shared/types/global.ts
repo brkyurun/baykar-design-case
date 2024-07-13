@@ -1,3 +1,3 @@
-export type ButtonType = "primary" | "secondary";
+export type ButtonType = "primary" | "secondary" | "primary-outline";
 
-export type ButtonSize = "xs" | "small" | "medium";
+export type ButtonSize = "xs" | "small" | "medium" | "large";

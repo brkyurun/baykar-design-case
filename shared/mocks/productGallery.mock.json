@@ -1,0 +1,78 @@
+{
+  "productGalleryTitle": "The best of the best",
+  "productGalleryButtonProps": {
+    "buttonTitle": "Sign up now",
+    "buttonUrl": "#",
+    "buttonAriaLabel": "Sign up now",
+    "buttonType": "primary-outline",
+    "buttonSize": "large"
+  },
+  "products": [
+    {
+      "productTitle": "Title",
+      "productDescription": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
+      "productImage": {
+        "mobile": {
+          "src": "/product-gallery-1-mobile.webp",
+          "alt": "Photo of a yellow shoe."
+        },
+        "desktop": {
+          "src": "/product-gallery-1-desktop.webp",
+          "alt": "Photo of a yellow shoe."
+        }
+      },
+      "productButtonProps": {
+        "buttonTitle": "Buy Now",
+        "buttonUrl": "#",
+        "buttonAriaLabel": "Buy Now",
+        "buttonType": "primary-outline",
+        "buttonSize": "medium",
+        "buttonIcon": "/shopping-cart-icon.svg"
+      }
+    },
+    {
+      "productTitle": "Title",
+      "productDescription": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
+      "productImage": {
+        "mobile": {
+          "src": "/product-gallery-2-mobile.webp",
+          "alt": "Photo of three different shoes."
+        },
+        "desktop": {
+          "src": "/product-gallery-2-desktop.webp",
+          "alt": "Photo of three different shoes."
+        }
+      },
+      "productButtonProps": {
+        "buttonTitle": "Buy Now",
+        "buttonUrl": "#",
+        "buttonAriaLabel": "Buy Now",
+        "buttonType": "primary-outline",
+        "buttonSize": "medium",
+        "buttonIcon": "/shopping-cart-icon.svg"
+      }
+    },
+    {
+      "productTitle": "Title",
+      "productDescription": "Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.",
+      "productImage": {
+        "mobile": {
+          "src": "/product-gallery-3-mobile.webp",
+          "alt": "Photo of a man wearing white shoes over a yellow background."
+        },
+        "desktop": {
+          "src": "/product-gallery-3-desktop.webp",
+          "alt": "Photo of a man wearing white shoes over a yellow background."
+        }
+      },
+      "productButtonProps": {
+        "buttonTitle": "Buy Now",
+        "buttonUrl": "#",
+        "buttonAriaLabel": "Buy Now",
+        "buttonType": "primary-outline",
+        "buttonSize": "medium",
+        "buttonIcon": "/shopping-cart-icon.svg"
+      }
+    }
+  ]
+}
