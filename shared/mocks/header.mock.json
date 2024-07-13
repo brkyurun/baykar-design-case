@@ -29,7 +29,12 @@
     {
       "linkTitle": "Sign Up Now",
       "linkUrl": "#",
-      "isButton": true
+      "isButton": true,
+      "buttonProps": {
+        "buttonType": "primary",
+        "buttonAriaLabel": "Sign up now",
+        "buttonSize": "small"
+      }
     }
   ]
 }

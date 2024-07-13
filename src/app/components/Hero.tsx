@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { ButtonType } from "../../../shared/types/global";
+import { ButtonSize, ButtonType } from "../../../shared/types/global";
 import { Button } from "./Button";
 
 export type HeroProps = {
@@ -11,6 +11,7 @@ export type HeroProps = {
     buttonUrl?: string;
     buttonAriaLabel: string;
     buttonType: ButtonType;
+    buttonSize: ButtonSize;
   }[];
   heroImageMobile: {
     src: string;
@@ -58,6 +59,7 @@ export function Hero({
                   buttonType={button.buttonType}
                   buttonAriaLabel={button.buttonAriaLabel}
                   buttonIcon={button.buttonIcon}
+                  buttonSize={button.buttonSize}
                 >
                   {button.buttonTitle}
                 </Button>

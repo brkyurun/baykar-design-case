@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import { ReactNode } from 'react';
-import { ButtonType } from '../../../shared/types/global';
-import Image from 'next/image';
+import Link from "next/link";
+import { ReactNode } from "react";
+import { ButtonSize, ButtonType } from "../../../shared/types/global";
+import Image from "next/image";
 
 type ButtonProps = {
   children: ReactNode;
@@ -9,13 +9,19 @@ type ButtonProps = {
   buttonIcon?: string;
   buttonAriaLabel: string;
   buttonType: ButtonType;
+  buttonSize: ButtonSize;
 };
 
 const BUTTON_VARIANTS = {
   primary:
-    'px-8 py-4 rounded-lg font-medium text-baykar-yellow bg-transparent border-2 border-baykar-brown text-xl w-full',
-  secondary:
-    'px-2 py-3 bg-transparent text-baykar-yellow font-medium leading-6 w-full',
+    "text-baykar-yellow bg-transparent border-2 border-baykar-brown rounded-lg",
+  secondary: "bg-transparent text-baykar-yellow",
+};
+
+const BUTTON_SIZES = {
+  xs: "py-3 px-2 font-medium leading-6 w-full",
+  small: "py-3 px-7 font-medium leading-6 w-full",
+  medium: "px-8 py-4 font-medium text-xl w-full",
 };
 
 export function Button({
@@ -23,13 +29,14 @@ export function Button({
   buttonUrl,
   buttonIcon,
   buttonAriaLabel,
+  buttonSize,
   buttonType,
 }: ButtonProps) {
   return buttonUrl ? (
     <Link
       href={buttonUrl}
       aria-label={buttonAriaLabel}
-      className={BUTTON_VARIANTS[buttonType]}
+      className={`${BUTTON_VARIANTS[buttonType]} ${BUTTON_SIZES[buttonSize]}`}
     >
       <button type="button" className="">
         {children}
@@ -39,8 +46,8 @@ export function Button({
     <button
       type="button"
       aria-label={buttonAriaLabel}
-      className={`${BUTTON_VARIANTS[buttonType]} ${
-        buttonIcon && 'flex items-center gap-2'
+      className={`${BUTTON_VARIANTS[buttonType]} ${BUTTON_SIZES[buttonSize]} ${
+        buttonIcon && "flex items-center gap-2"
       }`}
     >
       {buttonIcon ? (

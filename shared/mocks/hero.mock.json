@@ -6,14 +6,16 @@
       "buttonTitle": "Sign up now",
       "buttonUrl": "#",
       "buttonAriaLabel": "Sign up now",
-      "buttonType": "primary"
+      "buttonType": "primary",
+      "buttonSize": "medium"
     },
     {
       "buttonTitle": "Watch Demo",
       "buttonIcon": "/button-play-icon.svg",
       "buttonUrl": "#",
       "buttonAriaLabel": "Watch Demo",
-      "buttonType": "secondary"
+      "buttonType": "secondary",
+      "buttonSize": "xs"
     }
   ],
   "heroImageMobile": {

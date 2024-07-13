@@ -2,13 +2,21 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
+import { Button } from "./Button";
+import { ButtonSize, ButtonType } from "../../../shared/types/global";
 
-type HeaderProps = {
+export type HeaderProps = {
   brandName: string;
   headerLinks: {
     linkTitle: string;
     linkUrl: string;
     isButton?: boolean;
+    buttonProps?: {
+      buttonType: ButtonType;
+      buttonAriaLabel: string;
+      buttonIcon?: string;
+      buttonSize?: ButtonSize;
+    };
   }[];
 };
 
@@ -66,20 +74,29 @@ export function Header({ brandName, headerLinks }: HeaderProps) {
           ))}
         </nav>
         {/* Desktop menu */}
-        <nav className="invisible hidden desktop:visible desktop:flex desktop:items-center desktop:gap-8">
-          {headerLinks.map((link) => (
-            <Link
-              key={link.linkTitle}
-              href={link.linkUrl}
-              className={
-                link.isButton
-                  ? "rounded-md border-2 border-baykar-brown bg-transparent px-7 py-3 font-medium leading-6 text-baykar-yellow"
-                  : "font-medium leading-6 text-baykar-yellow"
-              }
-            >
-              {link.linkTitle}
-            </Link>
-          ))}
+        <nav className="invisible hidden desktop:visible desktop:flex desktop:items-center desktop:gap-6">
+          {headerLinks.map((link) =>
+            link.isButton === true ? (
+              <Link key={link.linkTitle} href={link.linkUrl}>
+                <Button
+                  buttonType={link.buttonProps?.buttonType || "primary"}
+                  buttonAriaLabel={link.buttonProps?.buttonAriaLabel || ""}
+                  buttonIcon={link.buttonProps?.buttonIcon}
+                  buttonSize={link.buttonProps?.buttonSize || "small"}
+                >
+                  {link.linkTitle}
+                </Button>
+              </Link>
+            ) : (
+              <Link
+                key={link.linkTitle}
+                href={link.linkUrl}
+                className="font-medium leading-6 text-baykar-yellow"
+              >
+                {link.linkTitle}
+              </Link>
+            ),
+          )}
         </nav>
       </section>
     </header>
