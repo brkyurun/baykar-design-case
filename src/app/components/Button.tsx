@@ -41,7 +41,7 @@ export function Button({
     <Link
       href={buttonUrl}
       aria-label={buttonAriaLabel}
-      className="inline-block w-full"
+      className="contents w-full"
     >
       <button
         type="button"

@@ -72,7 +72,7 @@ export function Footer({
           ))}
         </div>
         <div className="contents desktop:flex desktop:flex-col">
-          <div className="mt-12 flex flex-col items-center desktop:items-start">
+          <div className="mt-12 flex flex-col items-center desktop:mt-0 desktop:items-start">
             <h3 className="font-medium">{appStoreIcons.title}</h3>
             <div className="mt-5 flex flex-col items-center gap-3 desktop:items-start">
               {appStoreIcons.icons.map((icon) => (
