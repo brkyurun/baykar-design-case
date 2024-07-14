@@ -90,7 +90,14 @@ export function WhyJoinUs({
               alt={image.mobileImage.imageAlt}
               width={361}
               height={220}
-              className="-mt-4 h-full w-full rounded-b-[1.25rem] px-1 pb-1"
+              className="-mt-4 h-full w-full rounded-b-[1.25rem] px-1 pb-1 desktop:invisible desktop:hidden"
+            />
+            <Image
+              src={image.desktopImage.imageSrc}
+              alt={image.desktopImage.imageAlt}
+              width={520}
+              height={310}
+              className="invisible -mt-4 hidden h-full w-full rounded-b-[1.25rem] px-1 pb-1 desktop:visible desktop:block"
             />
           </div>
         </div>
