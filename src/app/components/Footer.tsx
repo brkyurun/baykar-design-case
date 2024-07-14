@@ -82,7 +82,7 @@ export function Footer({
                     alt={icon.iconImageAlt}
                     width={icon.iconWidth}
                     height={icon.iconHeight}
-                    className="cursor-pointer"
+                    className="h-full w-full cursor-pointer"
                   />
                 </Link>
               ))}

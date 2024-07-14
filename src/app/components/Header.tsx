@@ -74,8 +74,8 @@ export function Header({ brandName, headerLinks }: HeaderProps) {
               href={link.linkUrl}
               className={
                 link.isButton
-                  ? "rounded-md border-2 border-baykar-brown bg-transparent px-8 py-4 text-xl font-medium text-baykar-yellow"
-                  : "py-1 text-xl font-medium text-baykar-yellow"
+                  ? "text-baykar-light-brown rounded-md border-2 border-baykar-brown bg-transparent px-8 py-4 text-xl font-medium"
+                  : "text-baykar-light-brown py-1 text-xl font-medium"
               }
             >
               {link.linkTitle}
@@ -100,7 +100,7 @@ export function Header({ brandName, headerLinks }: HeaderProps) {
               <Link
                 key={link.linkTitle}
                 href={link.linkUrl}
-                className="font-medium leading-6 text-baykar-yellow"
+                className="text-baykar-light-brown font-medium leading-6"
               >
                 {link.linkTitle}
               </Link>

@@ -15,10 +15,10 @@ type ButtonProps = {
 
 const BUTTON_VARIANTS = {
   primary:
-    "text-baykar-yellow bg-transparent border-2 border-baykar-brown rounded-lg",
+    "text-baykar-light-brown bg-transparent border-2 border-baykar-brown rounded-lg",
   "primary-outline":
     "text-white bg-transparent border-2 border-white rounded-lg justify-center",
-  secondary: "bg-transparent text-baykar-yellow",
+  secondary: "bg-transparent text-baykar-light-brown",
 };
 
 const BUTTON_SIZES = {

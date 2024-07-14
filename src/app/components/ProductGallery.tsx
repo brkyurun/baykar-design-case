@@ -15,14 +15,8 @@ export type ProductGalleryProps = {
     productTitle: string;
     productDescription: string;
     productImage: {
-      mobile: {
-        src: string;
-        alt: string;
-      };
-      desktop: {
-        src: string;
-        alt: string;
-      };
+      src: string;
+      alt: string;
     };
     productButtonProps: {
       buttonTitle: string;
@@ -64,8 +58,8 @@ export function ProductGallery({
             className="overflow-hidden rounded bg-baykar-black shadow-xl shadow-[#E2E8F0]/25"
           >
             <Image
-              src={product.productImage.mobile.src}
-              alt={product.productImage.mobile.alt}
+              src={product.productImage.src}
+              alt={product.productImage.alt}
               width={361}
               height={220}
               className="h-full w-full rounded-t object-cover"

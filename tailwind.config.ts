@@ -1,6 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  important: true,
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -14,7 +15,8 @@ const config: Config = {
       colors: {
         "baykar-brown": "#78350F",
         "baykar-black": "#0F172A",
-        "baykar-yellow": "#8C4C00",
+        "baykar-light-brown": "#8C4C00",
+        "baykar-yellow": "#FDE68A",
         "baykar-red": "#8C0000",
         "baykar-light-yellow": "#FEF3C7",
         "baykar-washed-yellow": "#FEFBED",
