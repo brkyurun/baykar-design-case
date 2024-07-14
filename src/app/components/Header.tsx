@@ -35,7 +35,7 @@ export function Header({ brandName, headerLinks }: HeaderProps) {
   return (
     <header className="relative isolate z-10 overflow-hidden bg-white desktop:bg-baykar-washed-yellow">
       <section className="container p-4 desktop:flex desktop:items-center desktop:justify-between desktop:px-20 desktop:py-8">
-        <div className="flex items-center justify-between font-roboto text-baykar-brown">
+        <div className="flex items-center justify-between text-baykar-brown">
           <h1 className="text-[2rem] font-bold leading-9">{brandName}</h1>
           <button
             type="button"

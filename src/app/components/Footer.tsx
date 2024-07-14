@@ -50,7 +50,7 @@ export function Footer({
   languageSelection,
 }: FooterProps) {
   return (
-    <footer className="bg-baykar-black px-4 py-12 text-center font-roboto text-white desktop:px-20 desktop:py-12">
+    <footer className="bg-baykar-black px-4 py-12 text-center text-white desktop:px-20 desktop:py-12">
       <div className="desktop:col contents desktop:grid desktop:grid-cols-4 desktop:content-between">
         <div className="flex flex-col items-center gap-12 desktop:col-span-3 desktop:grid desktop:grid-cols-3 desktop:gap-12">
           {categories.map((category) => (

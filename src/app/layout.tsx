@@ -25,7 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${roboto.variable} isolate overflow-x-hidden`}>
+      <body
+        className={`${roboto.variable} isolate overflow-x-hidden font-roboto`}
+      >
         <Header {...(headerMock as HeaderProps)} />
         {children}
         <Footer {...(footerMock as FooterProps)} />

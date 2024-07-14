@@ -19,6 +19,8 @@ const config: Config = {
         "baykar-light-yellow": "#FEF3C7",
         "baykar-washed-yellow": "#FEFBED",
         "baykar-orange": "#FBBF24",
+        "baykar-light-blue": "#E2E8F0",
+        "baykar-light-gray": "#475569",
       },
       screens: {
         mobile: "392px",

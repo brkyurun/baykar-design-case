@@ -1,0 +1,50 @@
+{
+  "sectionTitle": "Because they love us",
+  "testimonials": [
+    {
+      "companyImage": {
+        "src": "/testimonials-zoomer-logo.svg",
+        "alt": "Zoomer logo"
+      },
+      "review": "Non risus viverra enim, quis. Eget vitae arcu vivamus sit tellus, viverra turpis lorem. Varius a turpis urna id porttitor.",
+      "reviewAuthor": {
+        "name": "Hellen Jummy",
+        "title": "Team Lead",
+        "image": {
+          "src": "/hellen-jummy-photo.png",
+          "alt": "Photo of Hellen Jummy"
+        }
+      }
+    },
+    {
+      "companyImage": {
+        "src": "/testimonials-shells-logo.svg",
+        "alt": "Shells logo"
+      },
+      "review": "Aliquet ridiculus mi porta habitant vulputate rhoncus, mattis amet enim. Sit purus venenatis velit semper lectus sed ornare quam nulla.",
+      "reviewAuthor": {
+        "name": "Hellena John",
+        "title": "Co-founder",
+        "image": {
+          "src": "/hellena-john-photo.png",
+          "alt": "Photo of Hellena John"
+        }
+      }
+    },
+    {
+      "companyImage": {
+        "src": "/testimonials-artvenue-logo.svg",
+        "alt": "ArtVenue logo"
+      },
+      "review": "A eget sed posuere dui risus habitasse mauris. Venenatis aliquet id ultrices a lacus. Pretium vehicula pretium posuere justo sed.",
+      "reviewAuthor": {
+        "name": "David Oshodi",
+        "title": "Manager",
+        "image": {
+          "src": "/david-oshodi-photo.png",
+          "alt": "Photo of David Oshodi"
+        }
+      }
+    }
+  ]
+}

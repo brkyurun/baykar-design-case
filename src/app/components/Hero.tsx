@@ -40,7 +40,7 @@ export function Hero({
   heroBlockRows,
 }: HeroProps) {
   return (
-    <section className="desktop:bg-gradient-hero-desktop bg-white bg-gradient-hero from-white from-45% to-baykar-light-yellow to-45% px-4 py-12 font-roboto desktop:from-baykar-washed-yellow desktop:from-[54%] desktop:to-baykar-light-yellow desktop:to-[54%] desktop:p-20">
+    <section className="bg-white bg-gradient-hero from-white from-45% to-baykar-light-yellow to-45% px-4 py-12 desktop:bg-gradient-hero-desktop desktop:from-baykar-washed-yellow desktop:from-[54%] desktop:to-baykar-light-yellow desktop:to-[54%] desktop:p-20">
       <div className="desktop:flex desktop:items-center desktop:justify-between desktop:gap-20">
         <div className="desktop:flex desktop:flex-col desktop:items-start desktop:gap-8">
           <h2 className="text-center text-[3.5rem] font-bold leading-[3.875rem] desktop:text-left desktop:text-7xl">

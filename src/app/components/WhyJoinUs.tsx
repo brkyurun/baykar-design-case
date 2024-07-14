@@ -43,7 +43,7 @@ export function WhyJoinUs({
             {reasonsList.map((reason) => (
               <li
                 key={crypto.randomUUID()}
-                className="flex items-start gap-2 leading-9 before:block before:h-6 before:w-6 before:bg-[url('/checkmark.svg')] before:content-[''] desktop:text-xl"
+                className="flex items-start gap-2 before:block before:h-6 before:w-6 before:bg-[url('/checkmark.svg')] before:content-[''] desktop:text-xl desktop:leading-9"
               >
                 {reason.reasonTitle}
               </li>
@@ -76,7 +76,7 @@ export function WhyJoinUs({
               className="invisible hidden w-full desktop:visible desktop:block"
             />
           </div>
-          <div className="relative mx-4 -mt-[18rem] rounded-[1.25rem] bg-white shadow-2xl shadow-black/20 desktop:-mt-[25rem]">
+          <div className="relative mx-4 -mt-[16.5rem] rounded-[1.25rem] bg-white shadow-2xl shadow-black/20 desktop:-mt-[25rem]">
             <div className="rounded-[1.25rem] bg-white">
               <Image
                 src="/macos-tab-ui-icons.svg"
