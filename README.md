@@ -1,36 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Collers - Baykar Design Case
 
-## Getting Started
+A website UI built using Next.js (App Router), React, React Server Components, TailwindCSS, and TypeScript.
 
-First, run the development server:
+Deployed demo: https://main--collers-design-case.netlify.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Technical Decisions and Details About the Project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+For this project, TailwindCSS is a better choice than Bootstrap because the design suits TailwindCSS much more than Bootstrap, and also Bootstrap is bloated. It comes with unnecessary styles that is hard to change or override, effectively making the codebase more fragile for future development in terms of styling.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+TailwindCSS is more like a design system than a simple CSS framework. That's why I initially considered going with Radix Primitives + TailwindCSS as this is a great combo, unstyled yet accessible and performant primitive components and the power and structured approach TailwindCSS brings. But as the case study is one page, it would only bring in additional complexity so I decided against that.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+As for why I chose React and Next.js, React is a very mature and widely used UI library that is a joy to use. With Next.js complementing React and adding the features React is missing, it is very fun and enjoyable to develop. For this case study, I used Next.js with App Router to benefit from React Server Components as it has been more than a year since RSC was announced and it is much more stable now. The benefits of this approach is hard to notice on small projects, however as the project grows, static components (i.e. just returning some markup) start to be included during the build process and over time this causes the JS delivered to the client to only increase, hurting performance. With RSCs, components that do not have reactivity are not included in the build process, therefore, as the project grows, only dynamic components will slowly increase the bundle size.
 
-## Learn More
+I also used TypeScript to leverage type-safety and static code analysis for possible type-related bugs. TypeScript helped me a lot while structuring the data the components should receive as I had a clear idea with restricted types which improved my development speed and efficiency quite a lot.
 
-To learn more about Next.js, take a look at the following resources:
+For component architecture, I tried to employ as much composability and reusability as possible. For example, every component has their props typed, receive data from outside, and have their own mock files for demonstration. During development, I imagined working with any headless CMS for content management and structured the props as if they were coming from the CMS.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies and Resources Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- React
+- TailwindCSS
+- Next.js
+- Next Image
+- Next Font
+- TypeScript
+- Swiper
